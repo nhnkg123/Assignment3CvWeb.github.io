@@ -1,0 +1,52 @@
+@media(max-width: 576px) {
+
+    /* Navbar - tablet */
+    #nav-bar {
+        text-align: left;
+        margin: 15px 0;
+    }
+
+    section>.container {
+        width: auto;
+        display: block;
+    }
+
+    #nav-bar .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-item2,
+    .banner-item3,
+    .banner-item4,
+    .banner-item5 {
+        width: 100%;
+        border-left: 1px solid #ebebeb;
+        padding: 10px 37px;
+        color: #656565;
+    }
+
+    .banner-item1 img {
+        display: none;
+    }
+
+    #nav-bar i {
+        font-size: 20px;
+    }
+
+    #nav-bar span {
+        font-size: 15px;
+
+    }
+
+    /* CERTIFICATE - PRIZE */
+    #certificate .item1,
+    #certificate .item2,
+    #certificate .item3 {
+        border-bottom: 1px solid #d6c08d;
+    }
+
+    #certificate .item2>div {
+        border-left: none;
+    }
+}

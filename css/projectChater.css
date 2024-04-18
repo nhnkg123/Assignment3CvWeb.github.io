@@ -1,0 +1,39 @@
+.body {
+    box-sizing: border-box;
+}
+
+.button-timeline {
+    border-radius: 150px;
+    margin: 0 10px;
+}
+
+.goals,
+.team,
+.scopes,
+.primary,
+.timeline {
+    border: 6px solid blue;
+    background-color: rgb(226, 239, 239);
+}
+
+.projectChater {
+    border: 6px solid blue;
+}
+
+.projectChater h5 {
+    color: blue;
+    font-weight: bold;
+}
+
+.projectChater p {
+    font-size: 13px;
+}
+
+.timeline-list .flex-column {
+    border-bottom: 1px dashed #a3a3a3;
+    padding-top: 10px;
+}
+
+.timeline .flex-column p {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,95 @@
+@media(max-width: 768px) {
+    .img-info {
+        width: 500px;
+    }
+
+    .img-info p {
+        font-size: 40px;
+    }
+
+    .img-info span {
+        font-size: 15px;
+    }
+
+    /* Navbar - tablet */
+    #nav-bar .container {
+        width: 100%;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 140px) 70px repeat(2, 140px);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .banner-item1 img {
+        display: none;
+    }
+
+    #nav-bar i {
+        font-size: 13px;
+    }
+
+    #nav-bar span {
+        font-size: 10px;
+        color: #6b6b6b;
+        margin-right: 8px;
+    }
+
+    .banner-item3,
+    .banner-item5 {
+        border-right: 1px solid #ebebeb;
+    }
+
+    /* target, personal-info */
+    #about>.container {
+        max-width: 100%;
+    }
+
+    #target {
+        padding: 100px 30px 50px 30px;
+    }
+
+    #personal-info {
+        padding: 100px 40px 50px 40px;
+    }
+
+    #personal-info ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #about>.container h1 {
+        font-size: 25px;
+    }
+
+    #personal-info li,
+    #target p {
+        font-size: 12px;
+    }
+
+    /* experience, education, activity, ... */
+    #job-info {
+        padding: 50px 50px;
+    }
+
+    /* CERTIFICATE - PRIZE */
+    #certificate img {
+        width: 100%;
+    }
+
+    #certificate {
+        padding: 10px;
+    }
+
+    /* PROJECT */
+    #project {
+        padding: 30px 20px;
+    }
+
+    .grid-project>div {
+        width: 200;
+    }
+}
